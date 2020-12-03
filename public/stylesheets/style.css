@@ -1,0 +1,115 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+footer {
+  margin-top: 10em;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.container {
+  width: 1500px !important;
+}
+
+.navbar {
+  position: absolute;
+  width: 100% !important;
+  background-color: transparent !important;
+}
+
+.background-container {
+  background-image: url(/images/preikestolen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+}
+
+.index-container {
+  height: 100%;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* EXPLORE SECTION */
+
+#explore-section {
+  text-align: center;
+}
+
+.explore-header {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.explore-card {
+  border: none !important;
+  width: 17em;
+}
+
+.explore-card img {
+  border-radius: 5% !important;
+}
+
+/* ABOUT SECTION */
+
+#about-section {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: #ee6f57;
+  padding: 2.5em;
+  color: #f6f5f5;
+  text-align: justify;
+}
+
+#about-section img {
+  width: 80%;
+  border-radius: 2%;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* FOOTER */
+
+.credits-container {
+  height: 12em;
+  background-color: #1f3c88;
+}
+
+.fjord-container {
+  margin-bottom: -5.95em;
+}
+
+.fjordleft-img {
+  width: 37%;
+}
+
+.fjordright-img {
+  width: 30%;
+  float: right;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #f6f5f5;
+}
