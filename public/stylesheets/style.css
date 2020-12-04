@@ -12,10 +12,6 @@ footer {
 
 /*# sourceMappingURL=style.css.map */
 
-.container {
-  width: 1500px !important;
-}
-
 .navbar {
   position: absolute;
   width: 100% !important;
@@ -39,6 +35,46 @@ footer {
   text-align: center;
 }
 
+/* SEARCHBAR */
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 4.5em;
+  border-radius: 5em;
+  background-color: #f6f5f5;
+  -webkit-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+}
+
+.search-option {
+  width: 40%;
+  height: 100%;
+}
+
+.search-option p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.search-btn {
+  width: 12em;
+  border-radius: 5em;
+  background-color: #ee6f57;
+  color: #f6f5f5;
+}
+
 /* EXPLORE SECTION */
 
 #explore-section {
@@ -56,8 +92,45 @@ footer {
 }
 
 .explore-card img {
+  height: 16em;
+  width: 16em;
+  object-fit: cover;
   border-radius: 0.5em !important;
+  -webkit-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
 }
+
+.explore-card img:hover {
+  transform: scale(1.02);
+}
+
+/* ACTIVITIES SECTION */
+
+.activities-header {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.activities-card {
+  border: none !important;
+  width: 22em;
+}
+
+.activities-card img {
+  height: 16em;
+  width: 22em;
+  object-fit: cover;
+  border-radius: 0.5em !important;
+  -webkit-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 46px -26px rgba(0, 0, 0, 0.75);
+}
+
+.activities-card img:hover {
+  transform: scale(1.02);
+}
+
 
 /* ABOUT SECTION */
 
@@ -84,8 +157,12 @@ footer {
   justify-content: center;
 }
 
-.about-img-container {
-  text-align: end;
+.about-img-container {}
+
+/* ACTIVITIES SECTION */
+
+#activities-section {
+  text-align: center;
 }
 
 /* FOOTER */
